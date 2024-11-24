@@ -2,8 +2,10 @@
 
 
 # Ex. No. :8 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
+### NAME: GANESH G.
+### REG NO.: 212223230059
 ## Date: 
-###  
+
 
 ## Aim: 
 To configure ADC channel for interfacing an analog sensor and read the values on the com port 
@@ -150,6 +152,7 @@ This module also includes a potentiometer that will fix the threshold value, & t
 
 
 ##  Program 
+~~~
 #include "main.h"
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -232,7 +235,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 
  
 
-
+~~~
  
 ## Output screen shots of proteus :
 ![image](https://github.com/user-attachments/assets/a2a2fd66-d4e4-4885-b6ef-f67118ccdb53)
